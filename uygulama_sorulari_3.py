@@ -9,7 +9,7 @@
 
 #     dict = {
 #         "toplam": toplama(),
-#         "cikarm": cikarma(),
+#         "cikarma": cikarma(),
 #         "bolme": bolme()}
     
 #     print(dict)
@@ -19,9 +19,6 @@
 
 # 2) def logger(seviye):
 #     def mesaj_yaz(metin):
-#         if seviye =="INFO":
-#             return f"{seviye} {metin}"
-#         elif seviye =="ERROR": 
 #             return f"{seviye} {metin}"
 #     return mesaj_yaz 
     
