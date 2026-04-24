@@ -1,0 +1,48 @@
+# def selam(isim):
+#     print(f"Merhaba {isim}")
+
+# merhaba = selam
+# # print(selam)
+# # print(merhaba)
+# # selam("Ebru")
+
+# del selam
+# # print(selam)
+# print(merhaba)
+# merhaba("Ahmet")
+
+# def outer(number):
+#     print("Merhaba")
+#     print(x)
+#     def inner():
+#         print(f"Girdiğiniz sayı: {number}")
+#     inner()
+# outer(5)
+
+# def factorial_recursive(number):
+#     def inner(number):
+#         if number<=1:
+#             return 1
+#         return number*inner(number-1) #recursive bir şekilde yeni bir fonksiyon çağırdığım için inner'ın da parametre alması gerekir
+#     return inner(number)
+# sonuc=factorial_recursive(5)
+# print(sonuc)
+
+# def factorial(number):
+    # if not isinstance(number,int):
+    #     raise TypeError("Number must be integer!")
+    # if not number>=0:
+    #     raise ValueError("Number must be zero or positive!")
+    # def inner():  #yeni bir fonksiyon çağırmadığı için parametre almasına gerek yok.
+    #     sonuc=1
+    #     for i in range(1,number+1): 
+    #         sonuc*=i
+    #     return sonuc
+    # return inner()
+# print(factorial(6))
+
+# try: 
+#     sonuc=factorial("4")
+#     print(sonuc)
+# except Exception as ex:
+#     print(ex)
